@@ -6,20 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes do Produto</title>
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="./assets/css/styles.css">
 </head>
 
 <body>
 
-    <h1>Detalhes do Produto</h1>
-    <div id="product-details"></div>
-    <div class="back-container">
-    <a href="index.html" class="back-button">
-        ← Voltar
-    </a>
-</div>
+    <!-- Navbar -->
 
-    <script src="./js/detalhes.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+                href="index.html">
+                TechStore
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- Conteúdo -->
+
+    <main class="container my-5">
+
+        <!-- Informações gerais -->
+
+        <section id="product-details">
+
+            <!-- Preenchido pelo JS -->
+
+        </section>
+
+        <!-- Fotos vinculadas -->
+
+        <section class="mt-5">
+
+            <h2 class="text-center mb-4">
+                Galeria de Fotos
+            </h2>
+
+            <div
+                id="galeria-fotos"
+                class="row g-4">
+
+                <!-- Preenchido pelo JS -->
+
+            </div>
+
+        </section>
+
+        <!-- Botão -->
+
+        <div class="text-center mt-5">
+
+            <a href="index.html"
+                class="btn btn-primary">
+
+                Voltar ao Catálogo
+
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        © 2026 TechStore
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="./assets/js/app.js"></script>
 
 </body>
 

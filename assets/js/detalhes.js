@@ -4,6 +4,23 @@ const data = {
     id: 1,
     nome: "iPhone 17",
     preco: 18900,
+    destaque: true,
+    fotos: [
+        {
+            titulo: "Vista Frontal",
+            imagem: "./imagens/iphone1.jpg"
+        },
+
+        {
+            titulo: "Vista Traseira",
+            imagem: "./imagens/iphone2.jpg"
+        },
+
+        {
+            titulo: "Tela Inicial",
+            imagem: "./imagens/iphone3.jpg"
+        }    
+    ]
     categoria: "Celulares",
     fabricante: "Apple",
     garantia: "12 meses",
