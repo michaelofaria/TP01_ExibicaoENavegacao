@@ -1,10 +1,13 @@
+/* ========================================
+   GERAL
+======================================== */
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f4f6f9;
 }
 
-h1 {
+.page-title {
     text-align: center;
     background: #1f2937;
     color: white;
@@ -12,40 +15,71 @@ h1 {
     margin: 0;
 }
 
-.controls {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
 input,
 select {
-    padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-#btnRender {
-    background: #2563eb;
+/* ========================================
+   CAROUSEL
+======================================== */
+
+.carousel {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-caption h3 {
     color: white;
-    border: none;
-    padding: 12px 20px;
-    font-weight: bold;
-    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-#btnRender:hover {
-    background: #1d4ed8;
+.carousel-caption p {
+    color: white;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* ========================================
+   CATÁLOGO
+======================================== */
 
 #product-list {
     padding: 20px 0;
 }
 
 .card {
-    transition: 0.3s;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -55,107 +89,10 @@ select {
     padding: 10px;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0,0,0,.2);
-}
-
-.highlight {
-border: 3px solid orange;
-box-shadow: 0 0 10px orange;
-}
-
-button {
-    background-color: #f59e0b;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 12px;
-}
-
-.btn-details {
-    background-color: #2563eb;
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 6px;
-    display: inline-block;
-    margin-right: 8px;
-    transition: 0.3s;
-}
-
-.btn-details:hover {
-    background-color: #1d4ed8;
-}
-
-.card-buttons {
-    display: flex;
-    gap: 8px;
-    margin-top: 10px;
-}
-
-#product-details {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,.1);
-}
-
-.detail-image {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px auto;
-    border-radius: 12px;
-}
-
-#product-details h2 {
-    text-align: center;
-    color: #1f2937;
-    margin-bottom: 10px;
-}
-
-.price {
-    text-align: center;
-    color: #16a34a;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.info {
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-
-.back-button {
-    display: inline-block;
-    margin-top: 20px;
-    background: #2563eb;
-    color: white;
-    padding: 10px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
-.back-button:hover {
-    background: #1d4ed8;
-}
-
-.back-container {
-    max-width: 700px;
-    margin: 10px auto;
-}
-.card {
-    width: 100% !important;
-}
-
 .card-body {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .card-title {
@@ -167,26 +104,171 @@ button {
     flex-grow: 1;
 }
 
-.card img {
-    max-width: 100%;
-    object-fit: contain;
+.card-footer {
+    background: transparent;
 }
 
-.carousel-item img {
-    height: 500px;
+/* ========================================
+   SOBRE
+======================================== */
+
+#autor .card {
+    border: none;
+}
+
+/* ========================================
+   DETALHES
+======================================== */
+
+#product-details {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+#product-details .card {
+    border: none;
+}
+
+#product-details .card-body {
+    text-align: left;
+    padding: 30px;
+}
+
+#product-details .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+#product-details img {
+    width: 100%;
+    min-height: 350px;
     object-fit: contain;
     background-color: white;
 }
 
-.carousel-caption {
-    max-width: 600px;
-    margin: 0 auto;
+#product-details .badge {
+    font-size: 0.9rem;
 }
 
-.card-body {
+/* ========================================
+   GALERIA
+======================================== */
+
+#galeria-fotos .card {
+    transition: all 0.3s ease;
+}
+
+#galeria-fotos .card:hover {
+    transform: translateY(-5px);
+}
+
+#galeria-fotos .card img {
+    height: 250px;
+    object-fit: contain;
+    background-color: white;
+}
+
+#galeria-fotos .card-body {
     text-align: center;
 }
 
-.card-footer {
-    background: transparent;
+#galeria-fotos h5 {
+    font-weight: 600;
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    /* Carousel */
+
+    .carousel-img {
+        height: 250px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        bottom: 10px;
+        padding: 10px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .btn {
+        margin-top: 5px;
+        width: auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 15%;
+    }
+
+    /* Cards */
+
+    .card img {
+        height: 180px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+
+    /* Sobre */
+
+    #autor .card-body {
+        text-align: center;
+    }
+
+    /* Detalhes */
+
+    #product-details {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #product-details img {
+        min-height: auto;
+        max-height: 250px;
+    }
+
+    #product-details .card-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #product-details .card-body {
+        padding: 20px;
+    }
+
+    /* Galeria */
+
+    #galeria-fotos .card img {
+        height: 180px;
+    }
 }

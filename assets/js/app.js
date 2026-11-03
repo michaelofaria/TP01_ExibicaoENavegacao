@@ -22,17 +22,17 @@ const dados = {
             fotos: [
                 {
                     id: 1,
-                    titulo: "Vista Frontal",
+                    titulo: "Câmeras",
                     imagem: "./assets/imagens/Iphone/iPhone-Camera.jpg"
                 },
                 {
                     id: 2,
-                    titulo: "Tela Principal",
+                    titulo: "Design único",
                     imagem: "./assets/imagens/Iphone/iPhone-Completo.jpg"
                 },
                 {
                     id: 3,
-                    titulo: "Detalhes do Acabamento",
+                    titulo: "Tela frontal",
                     imagem: "./assets/imagens/Iphone/iPhone-Modelos.jpg"
                 }
             ]
@@ -52,23 +52,23 @@ const dados = {
             cor: "Titânio Azul",
             destaque: true,
             emEstoque: true,
-            imagemPrincipal: "./assets/imagens/Samsung.jpg",
+            imagemPrincipal: "./assets/imagens/samsung/Samsung.jpg",
 
             fotos: [
                 {
                     id: 1,
-                    titulo: "Parte Frontal",
-                    imagem: "./imagens/Samsung.jpg"
+                    titulo: "Música de qualidade",
+                    imagem: "./assets/imagens/samsung/Samsung2.jpg"
                 },
                 {
                     id: 2,
-                    titulo: "Parte Traseira",
-                    imagem: "./imagens/Samsung.jpg"
+                    titulo: "Várias cores",
+                    imagem: "./assets/imagens/samsung/Samsung4.jpg"
                 },
                 {
                     id: 3,
                     titulo: "Galeria de Recursos",
-                    imagem: "./imagens/Samsung.jpg"
+                    imagem: "./assets/imagens/samsung/Samsung3.jpg"
                 }
             ]
         },
@@ -88,23 +88,23 @@ const dados = {
             armazenamento: "512GB SSD",
             destaque: true,
             emEstoque: true,
-            imagemPrincipal: "./assets/imagens/Dell.png",
+            imagemPrincipal: "./assets/imagens/dell/Dell.png",
 
             fotos: [
                 {
                     id: 1,
-                    titulo: "Notebook Aberto",
-                    imagem: "./imagens/Dell.png"
+                    titulo: "Vista Lateral",
+                    imagem: "./assets/imagens/dell/Dell01.png"
                 },
                 {
                     id: 2,
-                    titulo: "Vista Lateral",
-                    imagem: "./imagens/Dell.png"
+                    titulo: "Vista do alto",
+                    imagem: "./assets/imagens/dell/Dell02.png"
                 },
                 {
                     id: 3,
-                    titulo: "Detalhes de Hardware",
-                    imagem: "./imagens/Dell.png"
+                    titulo: "Notebook aberto",
+                    imagem: "./assets/imagens/dell/Dell03.png"
                 }
             ]
         },
@@ -123,13 +123,13 @@ const dados = {
             memoria: "8GB",
             destaque: false,
             emEstoque: false,
-            imagemPrincipal: "./assets/imagens/Lenovo.jpg",
+            imagemPrincipal: "./assets/imagens/lenovo/Lenovo.jpg",
 
             fotos: [
                 {
                     id: 1,
                     titulo: "Visão Geral",
-                    imagem: "./imagens/Lenovo.jpg"
+                    imagem: "./assets/imagens/lenovo/Lenovo5.jpg"
                 },
                 {
                     id: 2,
@@ -148,7 +148,7 @@ const dados = {
             id: 5,
             nome: "Mouse Gamer Redragon",
             descricao: "Mouse gamer RGB com alta precisão.",
-            conteudo: "Possui 8 botões programáveis e sensor de até 12400 DPI.",
+            conteudo: "Possui 8 botões programáveis e sensor de até 12400 DPI. Escolha o modelo que mais define seu lado Gamer.",
             categoria: "Acessórios",
             fabricante: "Redragon",
             preco: 119,
@@ -157,23 +157,23 @@ const dados = {
             dpi: "12400",
             destaque: false,
             emEstoque: true,
-            imagemPrincipal: "./imagens/Mouse.png",
+            imagemPrincipal: "./assets/imagens/hardware/Mouse3.png",
 
             fotos: [
                 {
                     id: 1,
-                    titulo: "Mouse Iluminado",
-                    imagem: "./imagens/Mouse.png"
+                    titulo: "Mouse Amarelo",
+                    imagem: "./assets/imagens/hardware/Mouse.png"
                 },
                 {
                     id: 2,
-                    titulo: "Vista Superior",
-                    imagem: "./imagens/Mouse.png"
+                    titulo: "Mouse Branco",
+                    imagem: "./assets/imagens/hardware/Mouse4.png"
                 },
                 {
                     id: 3,
-                    titulo: "Detalhes RGB",
-                    imagem: "./imagens/Mouse.png"
+                    titulo: "Mouse...",
+                    imagem: "./assets/imagens/hardware/Mouse2.png"
                 }
             ]
         },
@@ -182,7 +182,7 @@ const dados = {
             id: 6,
             nome: "Teclado Gamer Rise Mode",
             descricao: "Teclado mecânico RGB para jogos.",
-            conteudo: "Equipado com switch Outemu Brown e iluminação RGB.",
+            conteudo: "Equipado com switch Outemu Brown e iluminação RGB. Escolha o modelo que mais define seu lado Gamer.",
             categoria: "Acessórios",
             fabricante: "Rise Mode",
             preco: 281,
@@ -192,22 +192,22 @@ const dados = {
             switch: "Outemu Brown",
             destaque: false,
             emEstoque: true,
-            imagemPrincipal: "./assets/imagens/Teclado.png",
+            imagemPrincipal: "./assets/imagens/hardware/Teclado2.png",
 
             fotos: [
                 {
                     id: 1,
                     titulo: "Teclado Completo",
-                    imagem: "./imagens/Teclado.png"
+                    imagem: "./assets/imagens/hardware/Teclado4.png"
                 },
                 {
                     id: 2,
-                    titulo: "Iluminação RGB",
+                    titulo: "Teclado ...",
                     imagem: "./imagens/Teclado.png"
                 },
                 {
                     id: 3,
-                    titulo: "Detalhes das Teclas",
+                    titulo: "Teclado ....",
                     imagem: "./imagens/Teclado.png"
                 }
             ]
@@ -226,23 +226,23 @@ const dados = {
             armazenamento: "1TB",
             destaque: true,
             emEstoque: true,
-            imagemPrincipal: "./assets/imagens/play5.png",
+            imagemPrincipal: "./assets/imagens/Play5/PS53.png",
 
             fotos: [
                 {
                     id: 1,
                     titulo: "Console PS5",
-                    imagem: "./imagens/play5.png"
+                    imagem: "./assets/imagens/Play5/PS5.png"
                 },
                 {
                     id: 2,
                     titulo: "Controle DualSense",
-                    imagem: "./imagens/play5.png"
+                    imagem: "./assets/imagens/Play5/PS52.png"
                 },
                 {
                     id: 3,
-                    titulo: "Sistema em Execução",
-                    imagem: "./imagens/play5.png"
+                    titulo: "PS",
+                    imagem: "./assets/imagens/Play5/PS54.png"
                 }
             ]
         },
@@ -260,23 +260,23 @@ const dados = {
             armazenamento: "1TB",
             destaque: false,
             emEstoque: false,
-            imagemPrincipal: "./assets/imagens/Xbox.png",
+            imagemPrincipal: "./assets/imagens/xbox/Xbox2.png",
 
             fotos: [
                 {
                     id: 1,
                     titulo: "Xbox Series X",
-                    imagem: "./imagens/Xbox.png"
+                    imagem: "./assets/imagens/xbox/Xbox.png"
                 },
                 {
                     id: 2,
                     titulo: "Controle Xbox",
-                    imagem: "./imagens/Xbox.png"
+                    imagem: "./assets/imagens/xbox/Xbox4.png"
                 },
                 {
                     id: 3,
-                    titulo: "Detalhes do Console",
-                    imagem: "./imagens/Xbox.png"
+                    titulo: "XBOX",
+                    imagem: "./assets/imagens/xbox/Xbox3.png"
                 }
             ]
         }
@@ -303,22 +303,21 @@ const carouselContainer =
         
             <img
                 src="${produto.imagemPrincipal}"
-                class="d-block w-100"
-                style="height: 450px; object-fit: contain; background-color: #fff;"
+                class="d-block w-100 carousel-img"
                 alt="${produto.nome}"
             >
 
-            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+            <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
 
                 <h3>${produto.nome}</h3>
 
                 <p>${produto.descricao}</p>
 
-                <a
-                    href="detalhes.html?id=${produto.id}"
-                    class="btn btn-warning">
+                 <a
+                 href="detalhes.html?id=${produto.id}"
+                class="btn btn-warning">
 
-                    Ver Detalhes
+                Ver Detalhes
 
                 </a>
 
@@ -561,3 +560,13 @@ function renderDetails() {
 renderCarousel();
 renderProducts();
 renderDetails();
+
+const carousel = new bootstrap.Carousel(
+    elementoCarousel,
+    {
+        interval: 3000,
+        wrap: true
+    }
+);
+
+carousel.cycle();
