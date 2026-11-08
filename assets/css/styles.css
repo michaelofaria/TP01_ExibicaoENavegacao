@@ -203,3 +203,22 @@ footer {
     }
 
 }
+
+/* ==================================
+   BH ONTEM E HOJE
+================================== */
+
+#ontem-hoje {
+    background-color: #FFFDF9;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#ontem-hoje img {
+    height: 250px;
+    object-fit: cover;
+}
+
+#ontem-hoje .card-title {
+    color: #355C5A;
+}
