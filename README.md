@@ -1,64 +1,65 @@
-# Semana09_AtividadePratica
+# Meu Belo Horizonte
 
-## Atividade Prática 09 - Funções e DOM
+## Aluno
 
-Nome: Michael de Oliveira Faria
+**Nome:** Michael de Oliveira Faria
 
-Matrícula: 931634
+**Matrícula:** 931634
 
-## Catálogo renderizado
+**Curso:** Análise e Desenvolvimento de Sistemas
 
-### Print 1
+---
 
-![Print 1](imagens/Meu_comercio_01.png)
+## Sobre o Projeto
 
-### Print 2
+O projeto "Meu Belo Horizonte" foi desenvolvido para a disciplina de Desenvolvimento Web Front-End e apresenta alguns dos principais pontos turísticos, históricos e culturais da capital mineira.
 
-![Print 2](imagens/Meu_comercio_02.png)
+O sistema utiliza HTML, CSS, Bootstrap e JavaScript para gerar o conteúdo de forma dinâmica a partir de uma estrutura JSON.
 
-## Detalhes
+As informações são organizadas em:
 
-### Print 3
+- Página Principal
+  - Logo e apresentação do projeto
+  - Carousel com lugares em destaque
+  - Cards com os pontos turísticos
+  - Seção histórica "Belo Horizonte: Ontem e Hoje"
+  - Informações do autor
 
-![Print 3](imagens/Meu_comercio_03.png)
+- Página de Detalhes
+  - Informações completas de cada local
+  - Fotos associadas
+  - Curiosidades
+  - Patrimônio cultural
+  - Melhor período para visitação
+  - Nível de visitação
 
-### Print 4
+---
 
-![Print 4](imagens/Meu_comercio_04.png)
+## Observação
 
-## Console
+![Logo](./assets/imagens/logo/Logo.png)
 
-### Print 5
-
-![Print 5](imagens/Meu_comercio_05.png)
+A imagem da logo foi gerada pelo Copilot a partir de um prompt compartilhando informações sobre o trbaalho e uma imagem da Praça Raul Soares para auxiliar no desenvolvimento da imagem.
 
 
-# Semana11_AtividadePratica
+## Imagens Geral do Site - Desktop 
 
-## Atividade Prática 11 - Páginas de detalhes dinâmicas
+Imagem da tela principal do site
 
-Nome: Michael de Oliveira Faria
+![Tela Principal](./assets/imagens/site/SiteCompleto.png)
 
-Matrícula: 931634
+Imagem da tela de detalhes do site
 
-## Catálogo renderizado
+![Tela de Detalhes](./assets/imagens/site/SiteDetalhesCompleto.png)
 
-### Print 6 - Home
+## Imagens Geral do Site - Celular
 
-![Print 6](imagens/Meu_comercio_NV.png)
+Imagem da tela de celular do site
 
-### Print 7 - Pesquisa de item 
+![Visão Celular](./assets/imagens/site/ImagemCelular.png)
 
-![Print 7](imagens/Meu_comercio_NV_02.png)
+![Visão Celular](./assets/imagens/site/ImagemCelular2.png)
 
-### Print 8 - Detales do produto
+![Visão Celular](./assets/imagens/site/ImagemCelular3.png)
 
-![Print 8](imagens/Meu_comercio_NV_03.png)
-
-### Print 9 - Erro na pesquisa
-
-![Print 9](imagens/Meu_comercio_NV_04.png)
-
-### Print 10 - Dados JSON do arquivo detalhes.js.
-
-![Print 5](imagens/Meu_comercio_NV_05.png)
+![Visão Celular](./assets/imagens/site/ImagemCelular4.png)
