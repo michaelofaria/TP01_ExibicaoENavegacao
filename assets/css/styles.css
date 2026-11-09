@@ -1,11 +1,13 @@
 /* ==================================
-   ESTILO GERAL - MEU BELO HORIZONTE
+   GERAL
 ================================== */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F7F3ED;
+    background-color: #F2EFEA;
     color: #3E3833;
+    margin: 0;
+    padding: 0;
 }
 
 /* ==================================
@@ -26,6 +28,80 @@ body {
 }
 
 /* ==================================
+   HERO BH
+================================== */
+
+.hero-bh {
+
+    background-color: transparent;
+
+    padding: 30px 20px;
+
+}
+
+.hero-logo {
+
+    width: 100%;
+
+    max-width: 500px;
+
+    height: auto;
+
+}
+
+.hero-bh h1 {
+
+    color: #355C5A;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+}
+
+.hero-bh p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+}
+
+/* ==================================
+   BANNER TEXTO
+================================== */
+
+.banner-apresentacao {
+
+    background-color: transparent;
+
+    padding: 30px;
+
+    text-align: center;
+
+}
+
+.banner-apresentacao h1 {
+
+    font-size: 3rem;
+
+    color: #355C5A;
+
+    font-weight: 700;
+
+}
+
+.banner-apresentacao p {
+
+    font-size: 1.1rem;
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+/* ==================================
    TÍTULOS
 ================================== */
 
@@ -43,93 +119,161 @@ h5 {
 ================================== */
 
 .carousel {
-    border-radius: 12px;
+
+    border-radius: 15px;
+
     overflow: hidden;
+
 }
 
 .carousel-img {
+
     width: 100%;
+
     height: 500px;
+
     object-fit: cover;
+
 }
 
 .carousel-caption {
+
     background: rgba(41, 72, 70, 0.85);
-    border-radius: 12px;
+
     padding: 20px;
+
+    border-radius: 12px;
+
 }
 
 .carousel-caption h3,
 .carousel-caption p {
+
     color: white;
+
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+
     filter: invert(100%);
+
 }
 
 /* ==================================
    BOTÕES
 ================================== */
 
-.btn-primary,
-.btn-warning {
+.btn-primary {
+
     background-color: #5B7C82;
+
     border-color: #5B7C82;
-    color: white;
+
 }
 
-.btn-primary:hover,
-.btn-warning:hover {
+.btn-primary:hover {
+
     background-color: #486970;
+
     border-color: #486970;
+
 }
 
 .btn-outline-primary {
+
     color: #5B7C82;
+
     border-color: #5B7C82;
+
 }
 
 .btn-outline-primary:hover {
+
     background-color: #5B7C82;
+
     color: white;
+
 }
 
 /* ==================================
-   CARDS
+   CARDS DOS LUGARES
 ================================== */
 
 .card {
-    background-color: #FFFDF9;
+
     border: 1px solid #E5DDD2;
+
+    background-color: #FFFDF9;
+
     transition: 0.3s ease;
+
 }
 
 .card:hover {
+
     transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(53,92,90,0.2);
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+
 }
 
-.card img {
+.card-img-top {
+
     height: 250px;
+
     object-fit: cover;
+
 }
 
 .card-title {
+
     color: #355C5A;
+
+    min-height: 60px;
+
+    font-size: 1.25rem;
+
+}
+
+.card-text {
+
+    min-height: 80px;
+
 }
 
 .card-footer {
+
     background: transparent;
+
 }
 
 /* ==================================
-   SOBRE O AUTOR
+   SEÇÃO HISTÓRICA
 ================================== */
 
-#autor .card {
-    border-left: 5px solid #355C5A;
+#ontem-hoje {
+
+    background-color: #FFFDF9;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+}
+
+#ontem-hoje img {
+
+    height: 230px;
+
+    object-fit: cover;
+
+}
+
+#ontem-hoje .card-title {
+
+    color: #355C5A;
+
 }
 
 /* ==================================
@@ -137,34 +281,115 @@ h5 {
 ================================== */
 
 #product-details .card {
+
     border: none;
+
 }
 
 #product-details img {
+
     width: 100%;
-    min-height: 400px;
+
+    min-height: 450px;
+
     object-fit: cover;
+
 }
 
 #product-details .card-title {
+
     color: #355C5A;
+
+    margin-bottom: 20px;
+
 }
 
 /* ==================================
-   GALERIA
+   GALERIA DE FOTOS
 ================================== */
 
 #galeria-fotos img {
+
     height: 250px;
+
     object-fit: cover;
+
 }
 
 #galeria-fotos .card {
-    transition: .3s;
+
+    transition: 0.3s ease;
+
 }
 
 #galeria-fotos .card:hover {
+
     transform: translateY(-5px);
+
+}
+
+/* ==================================
+   SOBRE O DESENVOLVEDOR
+================================== */
+
+#autor .card {
+
+    background-*olor: #FFFDF9;
+
+    border-left: 5*x solid #355C5A;
+
+}
+
+.autor-foto {
+
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #355C5A;
+    margin-bottom: 15px;
+
+}
+
+.redes p {
+    margin-bottom: 8px;
+}
+
+#autor h5 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.curso {
+    margin-bottom: 15px;
+}
+
+.redes {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 15px;
+
+}
+
+.redes img {
+
+    width: 32px;
+
+    height: 32px;
+
+    transition: 0.3s ease;
+
+}
+
+.redes img:hover {
+
+    transform: scale(1.15);
+
 }
 
 /* ==================================
@@ -172,53 +397,69 @@ h5 {
 ================================== */
 
 footer {
+
     background-color: #294846 !important;
+
     color: white;
+
+    margin-top: 50px;
+
+}
+
+footer h5 {
+
+    color: white;
+
 }
 
 /* ==================================
    MOBILE
 ================================== */
 
-@media(max-width:768px){
+@media (max-width: 991px) {
 
-    .carousel-img{
-        height:250px;
+    .hero-bh {
+
+        text-align: center;
+
     }
 
-    .carousel-caption p{
-        display:none;
+    .hero-logo {
+
+        max-width: 350px;
+
+        margin-bottom: 25px;
+
     }
 
-    .card img{
-        height:180px;
+    .carousel-img {
+
+        height: 250px;
+
     }
 
-    #product-details img{
-        min-height:250px;
+    .carousel-caption p {
+
+        display: none;
+
     }
 
-    #product-details .card-title{
-        text-align:center;
+    .card-img-top {
+
+        height: 180px;
+
     }
 
-}
+    #product-details img {
 
-/* ==================================
-   BH ONTEM E HOJE
-================================== */
+        min-height: 250px;
 
-#ontem-hoje {
-    background-color: #FFFDF9;
-    border-radius: 15px;
-    padding: 30px;
-}
+    }
 
-#ontem-hoje img {
-    height: 250px;
-    object-fit: cover;
-}
+    .banner-apresentacao h1 {
 
-#ontem-hoje .card-title {
-    color: #355C5A;
+        font-size: 2rem;
+
+    }
+
 }
