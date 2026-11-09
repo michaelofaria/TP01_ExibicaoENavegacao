@@ -56,12 +56,12 @@ const dados = {
         {
             id: 1,
             titulo: "Corredores Tradicionais",
-            imagem: "../assets/imagens/mercado/mercadovelho.jpg"
+            imagem: "./assets/imagens/mercado/mercadovelho.jpg"
         },
         {
             id: 2,
             titulo: "Bar da Lora",
-            imagem: "../assets/imagens/mercado/mercadovelho2.jpg"
+            imagem: "./assets/imagens/mercado/mercadovelho2.jpg"
         },
         {
             id: 3,
