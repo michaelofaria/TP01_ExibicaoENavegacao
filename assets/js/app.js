@@ -65,7 +65,7 @@ const dados = {
         },
         {
             id: 3,
-            titulo: "Frutas e Produtos Regional",
+            titulo: "Frutas e Produtos Regionais",
             imagem: "./assets/imagens/mercado/mercadovelho4.jpg"
         }
     ]
@@ -100,7 +100,7 @@ const dados = {
         },
         {
             id: 3,
-            titulo: "Uma noite com o Monumento a Iemanjá",
+            titulo: "Monumento de Iemanjá",
             imagem: "./assets/imagens/lagoa/lgpampulha5.jpg"
         }
     ]
@@ -200,7 +200,7 @@ const dados = {
         },
         {
             id: 2,
-            titulo: "O Mundo de Beaga em um Lugar",
+            titulo: "O fervo dos Belo-horizontinos",
             imagem: "./assets/imagens/mercadonovo/mercadonv4.jpg"
         },
         {
@@ -275,7 +275,7 @@ const dados = {
         },
         {
             id: 3,
-            titulo: "Binóculo Disponível no Mirante",
+            titulo: "Encontre Lugares",
             imagem: "./assets/imagens/mangabeiras/mmangabeiras.jpg"
         }
     ]
@@ -461,6 +461,28 @@ function renderDetails() {
         `;
 
         return;
+    }
+
+    const subtitulo =
+    document.getElementById(
+        "subtitulo-detalhe"
+    );
+
+if(subtitulo){
+
+    subtitulo.textContent =
+        lugar.categoria;
+
+}
+const tituloDetalhe =
+    document.getElementById(
+        "titulo-detalhe"
+    );
+
+    if (tituloDetalhe) {
+
+        tituloDetalhe.textContent =
+            lugar.nome;
     }
 
     detalhes.innerHTML = `

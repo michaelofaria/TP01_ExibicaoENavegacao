@@ -28,41 +28,34 @@ body {
 }
 
 /* ==================================
-   HERO BH
+   LOGO MEU BH
 ================================== */
 
-.hero-bh {
+.meubh-logo {
 
-    background-color: transparent;
-
-    padding: 30px 20px;
+    padding: 40px 20px 20px;
 
 }
 
-.hero-logo {
+.meubh-logo-img {
 
     width: 100%;
-
-    max-width: 500px;
-
+    max-width: 900px;
     height: auto;
 
 }
 
-.hero-bh h1 {
+.meubh-logo h1 {
 
     color: #355C5A;
-
     font-weight: 700;
-
-    margin-bottom: 20px;
+    font-size: 4rem;
 
 }
 
-.hero-bh p {
+.meubh-logo p {
 
-    font-size: 1.1rem;
-
+    font-size: 1.2rem;
     line-height: 1.8;
 
 }
@@ -74,9 +67,7 @@ body {
 .banner-apresentacao {
 
     background-color: transparent;
-
     padding: 30px;
-
     text-align: center;
 
 }
@@ -84,9 +75,7 @@ body {
 .banner-apresentacao h1 {
 
     font-size: 3rem;
-
     color: #355C5A;
-
     font-weight: 700;
 
 }
@@ -94,9 +83,7 @@ body {
 .banner-apresentacao p {
 
     font-size: 1.1rem;
-
     max-width: 800px;
-
     margin: auto;
 
 }
@@ -121,7 +108,6 @@ h5 {
 .carousel {
 
     border-radius: 15px;
-
     overflow: hidden;
 
 }
@@ -129,9 +115,7 @@ h5 {
 .carousel-img {
 
     width: 100%;
-
     height: 500px;
-
     object-fit: cover;
 
 }
@@ -139,9 +123,7 @@ h5 {
 .carousel-caption {
 
     background: rgba(41, 72, 70, 0.85);
-
     padding: 20px;
-
     border-radius: 12px;
 
 }
@@ -167,7 +149,6 @@ h5 {
 .btn-primary {
 
     background-color: #5B7C82;
-
     border-color: #5B7C82;
 
 }
@@ -175,7 +156,6 @@ h5 {
 .btn-primary:hover {
 
     background-color: #486970;
-
     border-color: #486970;
 
 }
@@ -183,7 +163,6 @@ h5 {
 .btn-outline-primary {
 
     color: #5B7C82;
-
     border-color: #5B7C82;
 
 }
@@ -191,7 +170,6 @@ h5 {
 .btn-outline-primary:hover {
 
     background-color: #5B7C82;
-
     color: white;
 
 }
@@ -203,9 +181,7 @@ h5 {
 .card {
 
     border: 1px solid #E5DDD2;
-
     background-color: #FFFDF9;
-
     transition: 0.3s ease;
 
 }
@@ -213,7 +189,6 @@ h5 {
 .card:hover {
 
     transform: translateY(-5px);
-
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 
 }
@@ -221,7 +196,6 @@ h5 {
 .card-img-top {
 
     height: 250px;
-
     object-fit: cover;
 
 }
@@ -229,9 +203,7 @@ h5 {
 .card-title {
 
     color: #355C5A;
-
     min-height: 60px;
-
     font-size: 1.25rem;
 
 }
@@ -255,9 +227,7 @@ h5 {
 #ontem-hoje {
 
     background-color: #FFFDF9;
-
     padding: 30px;
-
     border-radius: 15px;
 
 }
@@ -265,7 +235,6 @@ h5 {
 #ontem-hoje img {
 
     height: 230px;
-
     object-fit: cover;
 
 }
@@ -289,9 +258,7 @@ h5 {
 #product-details img {
 
     width: 100%;
-
     min-height: 450px;
-
     object-fit: cover;
 
 }
@@ -299,7 +266,6 @@ h5 {
 #product-details .card-title {
 
     color: #355C5A;
-
     margin-bottom: 20px;
 
 }
@@ -311,7 +277,6 @@ h5 {
 #galeria-fotos img {
 
     height: 250px;
-
     object-fit: cover;
 
 }
@@ -334,8 +299,7 @@ h5 {
 
 #autor .card {
 
-    background-*olor: #FFFDF9;
-
+    background-color: #FFFDF9;
     border-left: 5*x solid #355C5A;
 
 }
@@ -352,26 +316,29 @@ h5 {
 }
 
 .redes p {
+
     margin-bottom: 8px;
+
 }
 
 #autor h5 {
+
     margin-top: 10px;
     margin-bottom: 4px;
+
 }
 
 .curso {
+    
     margin-bottom: 15px;
+
 }
 
 .redes {
 
     display: flex;
-
     justify-content: center;
-
     gap: 15px;
-
     margin-top: 15px;
 
 }
@@ -379,9 +346,7 @@ h5 {
 .redes img {
 
     width: 32px;
-
     height: 32px;
-
     transition: 0.3s ease;
 
 }
@@ -399,9 +364,7 @@ h5 {
 footer {
 
     background-color: #294846 !important;
-
     color: white;
-
     margin-top: 50px;
 
 }
@@ -413,52 +376,61 @@ footer h5 {
 }
 
 /* ==================================
+   TOPO DETALHES
+================================== */
+
+.detalhe-topo {
+
+    padding: 20px 0 10px;
+
+}
+
+.detalhe-logo {
+
+    width: 100%;
+
+    max-width: 150px;
+
+    height: auto;
+
+}
+
+#titulo-detalhe {
+
+    color: #355C5A;
+
+    font-size: 2.4rem;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+
+}
+
+#subtitulo-detalhe {
+
+    color: #666;
+
+    margin-bottom: 0;
+
+}
+
+/* ==================================
    MOBILE
 ================================== */
 
 @media (max-width: 991px) {
 
-    .hero-bh {
+    .meubh-logo {
 
         text-align: center;
 
     }
 
-    .hero-logo {
+    .meubh-logo-img {
 
-        max-width: 350px;
-
+        max-width: 450px;
         margin-bottom: 25px;
-
-    }
-
-    .carousel-img {
-
-        height: 250px;
-
-    }
-
-    .carousel-caption p {
-
-        display: none;
-
-    }
-
-    .card-img-top {
-
-        height: 180px;
-
-    }
-
-    #product-details img {
-
-        min-height: 250px;
-
-    }
-
-    .banner-apresentacao h1 {
-
-        font-size: 2rem;
 
     }
 
